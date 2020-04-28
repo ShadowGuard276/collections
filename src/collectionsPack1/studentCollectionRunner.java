@@ -1,6 +1,7 @@
 package collectionsPack1;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class studentCollectionRunner {
@@ -10,7 +11,8 @@ public class studentCollectionRunner {
 		System.out.println(students);
 		ArrayList<Student> studentsAl= new ArrayList(students);
 		System.out.println(studentsAl);
-		
+		Collections.sort(studentsAl);
+		System.out.println(studentsAl);
 	}
 
 }
